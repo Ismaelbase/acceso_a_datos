@@ -1,0 +1,8 @@
+En Cordoba se ha vendido un total de 2500.0.
+En Huelva se ha vendido un total de 2100.0.
+En Sevilla se ha vendido un total de 670.0.
+En Jaen se ha vendido un total de 510.0.
+En Almeria se ha vendido un total de 2700.0.
+En Cadiz se ha vendido un total de 5500.0.
+En Granada se ha vendido un total de 1000.0.
+En Malaga se ha vendido un total de 1300.0.
