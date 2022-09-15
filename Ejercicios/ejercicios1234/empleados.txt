@@ -1,0 +1,10 @@
+Juan,1000,Granada
+Antonio,800,Malaga
+Maria,500,Malaga
+Antonio,5500,Cadiz
+Sonia,2100,Huelva
+Lucia,510,Jaen
+Luis,670,Sevilla
+Jose,2500,Almeria
+Fernando,2500,Cordoba
+Pablo,200,Almeria
