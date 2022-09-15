@@ -82,6 +82,7 @@ public class AccesoDatos {
 //            
 //            String linea_mod=partes[0]+"="+partes[1]+"="+partes[2];
 //            nuevo_txt.println(linea_mod);
+//            Se puede usar pw.println(String.join("=",partes); una vez spliteado para juntar partes del array con "=". easy peasy.
 //            
 //        }
 //
@@ -100,6 +101,8 @@ public class AccesoDatos {
           File archivo = new File(nombre_fichero);
           String nombre_archivo = archivo.getName();
           String linea;
+          
+          //Lo idoneo es crear un array que contenga las etiquetas y crear un bucle que recorra el array poniendo etiquetas y contenidos.
           
           pw.println("<"+nombre_archivo+">");
           
@@ -152,7 +155,6 @@ public class AccesoDatos {
         }
         
         if(ventas_prov.size()>0){
-            
             for(Entry<String,Double> prov:ventas_prov.entrySet()){
                 pw.println("En "+prov.getKey()+" se ha vendido un total de "+prov.getValue()+".");
             }
