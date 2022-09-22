@@ -122,7 +122,9 @@ public class AccesoDatos {
     }
 
     public ArrayList<String[]> buscarLibrosAutor(String autor) {
+        
         ArrayList<Libro> res=new ArrayList<>();
+        
         for(Libro lib:this.biblioteca.values()){
             if(lib.getAutor().equalsIgnoreCase(autor)){
                 res.add(lib);
@@ -138,6 +140,7 @@ public class AccesoDatos {
         //Crear tabla admite cualquier colección y devuelve una colección de 
         //cualquier tipo, por lo que ordenamos el Array con la información 
         // de la biblioteca y luego lo devolvemos.
+    
     public ArrayList<String[]> ordenarLibros(int criterio, String orden) {
         
         ArrayList<Libro> aux = new ArrayList<>(this.biblioteca.values());
