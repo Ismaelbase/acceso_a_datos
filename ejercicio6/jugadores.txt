@@ -1,0 +1,8 @@
+nombre:posicion:goles:equipo
+Messi:delantero:40:PSG
+Sergio Ramos:defensa:15:PSG
+Cristiano Ronaldo:delantero:41:Manchester United
+Gerard Pique:defensa:5:FC Barcelona
+Luka Modric:centrocampista:7:Real Madrid
+Kilyan Mbappe:delantero:20:PSG
+Martin Braithwate:delantero:10:FC Barcelona
