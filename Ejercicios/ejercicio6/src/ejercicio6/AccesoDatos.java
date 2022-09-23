@@ -171,7 +171,8 @@ public class AccesoDatos {
         FileWriter fw = new FileWriter(nombre);
         PrintWriter pw = new PrintWriter(fw);
         
-        pw.println(String.join(":", this.getColumnas()));
+        // Este print solo se usa en formato normal, no es necesario XML ni JSON
+//        pw.println(String.join(":", this.getColumnas()));
         
         ArrayList<Futbolista> orden = new ArrayList<>(this.liga.values());
         
@@ -179,11 +180,65 @@ public class AccesoDatos {
         
         int contador=0;
         
+        pw.println("{\"futbolistas\":");
+        
+        // '{"name":"John", "age":30, "car":null}'
         do{
-            String linea = String.join(":", orden.get(contador).valoresAtributos());
-            pw.println(linea);
+            pw.println("    {");
+            for(int i=0;i<this.getColumnas().length;i++){
+                pw.println("      \""+this.getColumnas()[i]+"\": "+"\""+orden.get(contador).valoresAtributos()[i]+"\",");
+            }
+            
             contador++;
-        }while(contador<=5 && contador<orden.size());
+            
+            if(contador<5){
+                pw.println("    },");
+            }else{
+                pw.println("    }");
+            }
+            
+        }while(contador<5 && contador<orden.size());
+        
+        pw.println("}");
+        
+        
+        
+        
+        
+        //Versión XML
+//        ----------------------------------------------------------------
+//        int contador=0;
+//
+//        pw.println("<futbolistas>");
+//
+//        do {
+//            pw.println("    <jugador>");
+//
+//            for (int i = 0; i < this.getColumnas().length; i++) {
+//                pw.println("        <" + this.getColumnas()[i] + ">" + orden.get(contador).valoresAtributos()[i] + "</" + this.getColumnas()[i] + ">");
+//            }
+//
+//            pw.println("    </jugador>");
+//            contador++;
+//
+//        } while (contador < 5 && contador < orden.size());
+//
+//        pw.println("</futbolistas>");
+        
+        
+        //-----------------------------------------------------------------------
+        
+        // Version Backup normal separada por ":"
+//        int contador=0;
+//        
+//        do{
+//            String linea = String.join(":", orden.get(contador).valoresAtributos());
+//            pw.println(linea);
+//            contador++;
+//        }while(contador<5 && contador<orden.size());
+        
+        
+        
         
 //        for(int i=0;i<5;i++){
 //            String linea = String.join(":", orden.get(i).valoresAtributos());
