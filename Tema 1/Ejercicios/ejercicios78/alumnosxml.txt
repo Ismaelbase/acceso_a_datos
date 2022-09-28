@@ -1,0 +1,14 @@
+<colegio>
+    <alumno>
+        <nombre>Juan Perez Lima</nombre>
+        <edad>32</edad>
+    </alumno>
+    <alumno>
+        <nombre>Jose Antonio Callejon Antunez</nombre>
+        <edad>23</edad>
+    </alumno>
+    <alumno>
+        <nombre>Felipe Rejon Callado</nombre>
+        <edad>18</edad>
+    </alumno>
+</colegio>

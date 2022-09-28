@@ -1,0 +1,5 @@
+titulo:autor:precio:numero_ejemplares
+Harry Potter y la piedra filosofal:JK Rowling:9.99:1000
+Codigo Da Vinci:Dan Brown:10.95:20
+Harry Potter y el caliz de fuego:JK Rowling:15.6:900
+La historia interminable:Michael Ende:5.96:9
