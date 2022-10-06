@@ -1,0 +1,23 @@
+Leer/escribir Ficheros de texto
+Leer/escribir Fichero binarios
+
+Dado un fichero de texto pasarlo a un HashMap
+
+Volver a guardar los datos del HashMap en un fichero de texto
+
+guardar los datos del HashMap en un fichero binario
+
+cargar los datos de un fichero binario en el mismo Hashmap
+
+Evitar repetidos al cargar usando el metodo añadir
+
+El resto de operaciones que no sean leer/escribir se hacen sobre el HashMap no hace falta leer el contenido del fichero otra vez
+==========================================================================================================
+Ejercicios tipo 
+Ejercicio 4 organizar por categorias usando un hashmap
+Ejercicios 5 y 6
+Ordenacion ASCENDENTE O DESCENDENTE
+Grabar un fichero con formato XML o JSON 
+Ejercicios 9 y 10 de binario
+
+EVITAR QUE VUESTROS CODIGOS DENTRO DE LO POSIBLE HARDCODEAN DATOS DE LOS FICHEROS DIRECTAMENTE

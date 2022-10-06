@@ -1,0 +1,8 @@
+La pronvicia Cordoba -> 2500.0€
+La pronvicia Huelva -> 2100.0€
+La pronvicia Sevilla -> 670.0€
+La pronvicia Jaen -> 510.0€
+La pronvicia Almeria -> 2700.0€
+La pronvicia Cadiz -> 5500.0€
+La pronvicia Granada -> 1000.0€
+La pronvicia Malaga -> 1300.0€

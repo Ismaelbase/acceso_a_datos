@@ -1,0 +1,7 @@
+nombre:modalidad:matriculados:precio
+Iniciacion a la magia:presencial:140:367.86
+Programacion en Java:online:100:123.57
+Jardineria avanzada:presencial:90:21.54
+Como ser influencer:online:123:300.12
+Marketing online:mixta:150:98.3
+Ciencia de los datos:online:120:190.12

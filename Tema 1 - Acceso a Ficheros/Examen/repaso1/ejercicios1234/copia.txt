@@ -1,0 +1,27 @@
+{"empleados": {
+    {
+    "Juan": "Antonio",
+    "1000": "800",
+    "Granada": "Malaga"
+    },
+    {
+    "Juan": "Dan",
+    "1000": "5500",
+    "Granada": "Cadiz"
+    },
+    {
+    "Juan": "Lucia",
+    "1000": "510",
+    "Granada": "Jaen"
+    },
+    {
+    "Juan": "Jose",
+    "1000": "2500",
+    "Granada": "Almeria"
+    },
+    {
+    "Juan": "Pablo",
+    "1000": "200",
+    "Granada": "Almeria"
+}
+}}
